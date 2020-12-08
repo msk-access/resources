@@ -1,5 +1,10 @@
 # ACCESS_resources
 
-`umi-T_N-PanCancer.zip` contains six test fastqs with specially-crafted UMIs, as described [here](https://github.com/mskcc/ACCESS-Pipeline/tree/master/test/test_data/umi-T_N-PanCancer).
+This repo host unit test resources for running access workflows.
 
-`pipeline_test.zip` contains the results of mapping and collapsing these initial test fastqs, plus QC metrics and PDFs.
+| File  	| Workflow 	|
+|:-:	|:-:	|
+|  [test_uncollapsed_bam_generation.tar.gz](https://github.com/msk-access/resources/blob/master/test_uncollapsed_bam_generation.tar.gz) 	|  [uncollapsed_bam_generation](https://github.com/msk-access/uncollapsed_bam_generation) 	|
+|  [test_fgbio_bam_collapsing.tar.gz](https://github.com/msk-access/resources/blob/master/test_fgbio_bam_collapsing.tar.gz) 	| [bam_collapsing](https://github.com/msk-access/bam_collapsing) 	|
+|  [test_nucleo.tar.gz](https://github.com/msk-access/resources/blob/master/test_nucleo.tar.gz) 	| [nucleo](https://github.com/msk-access/nucleo) 	|
+
